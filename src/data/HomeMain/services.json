@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "image": "assets/imgs/serv-icons/03-dark.svg",
+    "type": "Brand Identity",
+    "title": "Branding & Design",
+    "text": "Elevating brand presence through innovative design and cohesive visual strategies."
+  },
+  {
+    "id": 2,
+    "image": "assets/imgs/serv-icons/04-dark.svg",
+    "type": "Mobile Solutions",
+    "title": "Mobile Development",
+    "text": "Creating intuitive and high-performance mobile applications for seamless user experiences."
+  },
+  {
+    "id": 3,
+    "image": "assets/imgs/serv-icons/05-dark.svg",
+    "type": "Web Solutions",
+    "title": "Web Development",
+    "text": "Building dynamic and responsive websites to enhance user interaction and engagement."
+  }
+]

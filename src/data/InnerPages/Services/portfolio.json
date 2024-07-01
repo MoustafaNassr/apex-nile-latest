@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "image": "assets/imgs/portfolio/gallery/1.png",
+    "number": "01.",
+    "type": "Web Development",
+    "title": "Luxury Web Development",
+    "text": "ApexNile developed a sophisticated e-commerce platform for Luxury Glassware, enhancing user experience and boosting online sales through seamless web development.",
+    "list1": "Advanced web solutions",
+    "list2": "Enhanced user experience",
+    "list3": "Increased online sales"
+  },
+  {
+    "id": 2,
+    "image": "assets/imgs/portfolio/gallery/2.png",
+    "number": "02.",
+    "type": "Mobile Application",
+    "title": "Innovative Mobile App Development",
+    "text": "We designed and developed a mobile application for Brand Identity, ensuring a smooth user interface and engaging user experience to strengthen brand presence.",
+    "list1": "Smooth user interface",
+    "list2": "Engaging user experience",
+    "list3": "Strengthened brand presence"
+  },
+  {
+    "id": 3,
+    "image": "assets/imgs/portfolio/gallery/3.png",
+    "number": "03.",
+    "type": "UI/UX Design",
+    "title": "Stunning UI/UX Design",
+    "text": "ApexNile crafted an intuitive and visually appealing UI/UX design for Roseville Pottery, improving customer engagement and satisfaction.",
+    "list1": "Intuitive design",
+    "list2": "Visually appealing interface",
+    "list3": "Improved customer engagement"
+  }
+]

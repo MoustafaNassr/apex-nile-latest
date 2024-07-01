@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "assets/imgs/serv-icons/01-dark.svg",
+    "title": "Brand Identity & <BR> Branding & Design",
+    "text": "Crafting distinctive brand identities and compelling designs to elevate your brand's presence and recognition."
+  },
+  {
+    "id": 2,
+    "image": "assets/imgs/serv-icons/02-dark.svg",
+    "title": "UX/UI Design & <BR> Website/App Design",
+    "text": "Delivering intuitive UX/UI designs for websites and apps that enhance user experience and engagement."
+  },
+  {
+    "id": 3,
+    "image": "assets/imgs/serv-icons/03-dark.svg",
+    "title": "Digital Marketing & <BR> Content Writing & SEO",
+    "text": "Implementing strategic digital marketing, content creation, and SEO to boost your online visibility and traffic."
+  }
+]
