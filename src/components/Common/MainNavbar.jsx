@@ -79,7 +79,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
         </div>
         <div className="navbar-nav">
         <li className="nav-item">
-              <Link className="nav-link" href="https://career.apexnile.com"><span className="rolling-text">careers</span></Link>
+              <Link className="nav-link" href="https://careers.apexnile.com"><span className="rolling-text">careers</span></Link>
             </li>
         </div>
       </div>

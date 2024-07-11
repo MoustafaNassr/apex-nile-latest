@@ -16,7 +16,7 @@ function Blog() {
             <div className="col-lg-6 d-flex align-items-center">
               <div className="full-width d-flex justify-content-end justify-end">
                 <div className="vew-all">
-                  <Link href="blog.apexnile.com">View All Our News
+                  <Link href="https://blog.apexnile.com">View All Our News
                     <span>
                       <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
