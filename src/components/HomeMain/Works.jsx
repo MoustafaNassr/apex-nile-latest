@@ -21,7 +21,7 @@ function Works() {
                   <h6 className='arrowColor'>{item.date}</h6>
                 </div>
               </div>
-              <a href="#0" className="link-overlay"></a>
+              <a href={item.url} className="link-overlay"></a>
             </div>
           </div>
         ))

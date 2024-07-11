@@ -115,7 +115,7 @@ function ServicesTabs({ lightMode }) {
           <div className="text">
             <p>Enhance user engagement with our top-notch UI/UX design services. We create intuitive and visually appealing interfaces that delight users and drive conversions.</p>
           </div>
-          <Link href={`/${lightMode ? 'light' : 'dark'}/page-services`} className="mt-30">
+          <Link href={`/${lightMode ? 'light' : 'light'}/page-services`} className="mt-30">
             <span className="mr-15 ">Read More</span>
             <i className="fas fa-long-arrow-alt-right arrow "></i>
           </Link>
@@ -135,7 +135,7 @@ function ServicesTabs({ lightMode }) {
           <div className="text">
             <p>Build a powerful brand identity with our comprehensive branding services. From logos to complete brand strategies, we help you stand out in the market.</p>
           </div>
-          <Link href={`/${lightMode ? 'light' : 'dark'}/page-services`} className="mt-30">
+          <Link href={`/${lightMode ? 'light' : 'light'}/page-services`} className="mt-30">
             <span className="mr-15">Read More</span>
             <i className="fas fa-long-arrow-alt-right arrow"></i>
           </Link>
@@ -154,7 +154,7 @@ function ServicesTabs({ lightMode }) {
           <div className="text">
             <p>Transform your ideas into reality with our expert web development services. We build robust, scalable websites and applications tailored to your business needs.</p>
           </div>
-          <Link href={`/${lightMode ? 'light' : 'dark'}/page-services`} className="mt-30">
+          <Link href={`/${lightMode ? 'light' : 'light'}/page-services`} className="mt-30">
             <span className="mr-15">Read More</span>
             <i className="fas fa-long-arrow-alt-right arrow"></i>
           </Link>
@@ -173,7 +173,7 @@ function ServicesTabs({ lightMode }) {
           <div className="text">
             <p>Achieve your business goals with our strategic planning services. We provide actionable insights and strategies to help you navigate the digital landscape successfully.</p>
           </div>
-          <Link href={`/${lightMode ? 'light' : 'dark'}/page-services`} className="mt-30 ">
+          <Link href={`/${lightMode ? 'light' : 'light'}/page-services`} className="mt-30 ">
             <span className="mr-15 ">Read More</span>
             <i className="fas fa-long-arrow-alt-right arrow "></i>
           </Link>

@@ -1,38 +1,13 @@
-import React, { useEffect,useState } from 'react';
+import React, { useEffect } from 'react';
 import Link from 'next/link';
 //= Scripts
 import initIsotope from '@/common/initIsotope';
 //= Data
 import data from '@/data/Portfolio/classic-grid.json'
 
-
-
-
-
-
 function Grid() {
-  const [AllProjects, setAllProjects] = useState({ filters: [], gallery: [] });
-console.log("Will start to be Fetching projects...");
-async function fetchProjects() {
-  try {
-    console.log("Fetching projects...");
-    const resp = await fetch('/api/fetchProjects', {
-      next: {
-        revalidate: 0
-      }
-    });
-    console.log("Response received:", resp);
-
-    const result = await resp.json();
-    console.log("Data received:", result);
-    setAllProjects(result);
-    initIsotope();
-  } catch (error) {
-    console.error("Error fetching projects:", error);
-  }
-}
   useEffect(() => {
-    fetchProjects();
+    initIsotope();
   }, []);
 
   return (
@@ -43,7 +18,7 @@ async function fetchProjects() {
             <div className="filter">
               <span className="text">Filter By :</span>
               {
-                AllProjects.filters.map((item, index) => (
+                data.filters.map((item, index) => (
                   <span data-filter={item.filter} className={index === 0 ? 'active' : ''} data-count={item.count} key={item.id}>{item.title}</span>
                 ))
               }
@@ -53,7 +28,7 @@ async function fetchProjects() {
         <div className="gallery">
           <div className="row grid max-margin">
             {
-              AllProjects.gallery.map((item) => (
+              data.gallery.map((item) => (
                 <div className={`col-md-6 items ${item.filter} info-overlay mb-80`} key={item.id}>
                   <div className="item-img o-hidden">
                     <Link href="/dark/project-details1" className="imago wow">
