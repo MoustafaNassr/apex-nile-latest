@@ -16,7 +16,7 @@ function Blog() {
             <div className="col-lg-5 d-flex align-items-center">
               <div className="full-width d-flex justify-content-end justify-end">
                 <div className="vew-all">
-                  <Link href="/dark/blog-half-img">View All Our News
+                  <Link href="blog.apexnile.com">View All Our News
                     <span>
                       <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -46,12 +46,12 @@ function Blog() {
                       <div className="cont">
                         <span className="date fz-12 ls1 text-u opacity-7 mb-15">{item.date}</span>
                         <h5>
-                          <Link href="/dark/blog-details">{item.title}</Link>
+                          <Link href="blog.apexnile.com">{item.title}</Link>
                         </h5>
                         <div className="tags colorbg mt-15">
                           {
                             item.tags.map((tag, i) => (
-                              <Link href="/dark/blog-half-img" className="me-1" key={tag}>{tag}</Link>
+                              <Link href="blog.apexnile.com" className="me-1" key={tag}>{tag}</Link>
                             ))
                           }
                         </div>

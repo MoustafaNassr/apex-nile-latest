@@ -64,8 +64,8 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
               </Link>
             </li>
             <li className="nav-item " >
-              <Link className="nav-link " data-toggle="dropdown" href="/blog" role="button" aria-haspopup="true" aria-expanded="false">
-                <span className="rolling-text">you</span>
+              <Link className="nav-link " data-toggle="dropdown" href="blog.apexnile.com" role="button" aria-haspopup="true" aria-expanded="false">
+                <span className="rolling-text">Blog</span>
               </Link>
             </li>
         

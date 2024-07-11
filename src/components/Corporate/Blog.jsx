@@ -18,7 +18,7 @@ function Blog() {
             <div className="col-lg-4 d-flex align-items-center">
               <div className="full-width d-flex justify-content-end justify-end">
                 <div className="vew-all wow fadeIn">
-                  <Link href="/dark/dark/blog-classic">View All Our News
+                  <Link href="blog.apexnile.com">View All Our News
                     <span>
                       <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -40,11 +40,11 @@ function Blog() {
                 <div className={`item ${index !== data.length - 1 ? 'md-mb50' : ''}`}>
                   <div className="cont">
                     <h6>
-                      <Link href="/dark/blog-details">{item.title}</Link>
+                      <Link href="blog.apexnile.com">{item.title}</Link>
                     </h6>
                     <div className="info mt-20 mb-20 pt-20 bord-thin-top">
                       <span className="by">
-                        <Link href="/dark/blog-classic"><i className="far fa-user fz-14 mr-10"></i> By {item.author}</Link>
+                        <Link href="blog.apexnile.com"><i className="far fa-user fz-14 mr-10"></i> By {item.author}</Link>
                       </span>
                       <span className="dot main-colorbg3"></span>
                       <span className="date">

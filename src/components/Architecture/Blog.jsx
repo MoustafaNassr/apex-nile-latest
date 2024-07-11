@@ -33,11 +33,11 @@ function Blog() {
                       <div className="cont">
                         <span className="date fz-12 ls1 text-u opacity-7 mb-15">{item.date}</span>
                         <h5>
-                          <Link href="/dark/blog-details">{item.title}</Link>
+                          <Link href="blog.apexnile.com">{item.title}</Link>
                         </h5>
                         <div className="tags colorbg mt-15">
                           {
-                            item.tags.map(tag => <Link href="/dark/blog-half-img" key={tag}>{tag}</Link>)
+                            item.tags.map(tag => <Link href="blog.apexnile.com" key={tag}>{tag}</Link>)
                           }
                         </div>
                       </div>
