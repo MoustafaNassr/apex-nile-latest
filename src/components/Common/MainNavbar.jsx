@@ -64,7 +64,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
               </Link>
             </li>
             <li className="nav-item " >
-              <Link className="nav-link " data-toggle="dropdown" href={`/${lightMode ? 'light' : 'light'}/blog-half-img`} role="button" aria-haspopup="true" aria-expanded="false">
+              <Link className="nav-link " data-toggle="dropdown" href="/blog" role="button" aria-haspopup="true" aria-expanded="false">
                 <span className="rolling-text">Blog</span>
               </Link>
             </li>
