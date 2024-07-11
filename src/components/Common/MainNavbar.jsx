@@ -74,7 +74,12 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
 
         <div className="navbar-nav">
         <li className="nav-item">
-              <Link className="nav-link" href={`/${lightMode ? 'light' : 'light'}/page-contact`}><span className="rolling-text">Contact</span></Link>
+              <Link className="nav-link" href="careers.apexnile.com"><span className="rolling-text">Contact</span></Link>
+            </li>
+        </div>
+        <div className="navbar-nav">
+        <li className="nav-item">
+              <Link className="nav-link" href="careers.apexnile.com"><span className="rolling-text">careers</span></Link>
             </li>
         </div>
       </div>
