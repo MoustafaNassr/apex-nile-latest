@@ -64,7 +64,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
               </Link>
             </li>
             <li className="nav-item " >
-              <Link className="nav-link " data-toggle="dropdown" href="blog.apexnile.com" role="button" aria-haspopup="true" aria-expanded="false">
+              <Link className="nav-link " data-toggle="dropdown" href="https://blog.apexnile.com" role="button" aria-haspopup="true" aria-expanded="false">
                 <span className="rolling-text">Blog</span>
               </Link>
             </li>
@@ -74,12 +74,12 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
 
         <div className="navbar-nav">
         <li className="nav-item">
-              <Link className="nav-link" href="careers.apexnile.com"><span className="rolling-text">Contact</span></Link>
+              <Link className="nav-link" href={`/${lightMode ? 'light' : 'light'}/page-contact`}><span className="rolling-text">Contact</span></Link>
             </li>
         </div>
         <div className="navbar-nav">
         <li className="nav-item">
-              <Link className="nav-link" href="careers.apexnile.com"><span className="rolling-text">careers</span></Link>
+              <Link className="nav-link" href="https://career.apexnile.com"><span className="rolling-text">careers</span></Link>
             </li>
         </div>
       </div>
