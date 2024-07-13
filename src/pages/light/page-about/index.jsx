@@ -14,7 +14,8 @@ import Testimonials from '@/components/DigitalAgency/Testimonials';
 import Team from '@/components/Startup/Team';
 import Clients from '@/components/InnerPages/About/Clients';
 import CallToAction from '@/components/Startup/CallToAction';
-import Footer from '@/components/Startup/Footer';
+// import Footer from '@/components/Startup/Footer';
+import Footer from '@/components/HomeMain/Footer';
 
 function PageAboutLight() {
   const [isLightMode, setIsLightMode] = useState(true);
@@ -70,7 +71,7 @@ function PageAboutLight() {
         <Story />
         <Services lightMode={isLightMode} />
         <Intro />
-        <Testimonials mainColor />
+        {/* <Testimonials mainColor /> */}
         <CallToAction innerPageStyle />
       </main>
       <Footer lightMode={isLightMode} />

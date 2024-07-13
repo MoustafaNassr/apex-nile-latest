@@ -12,7 +12,8 @@ import Portfolio from '@/components/InnerPages/Services/Portfolio';
 import ServicesTab from '@/components/DigitalAgency/ServicesTab';
 import FAQ from '@/components/InnerPages/Services/FAQ';
 import CallToAction from '@/components/Startup/CallToAction';
-import Footer from '@/components/Startup/Footer';
+// import Footer from '@/components/Startup/Footer';
+import Footer from '@/components/HomeMain/Footer';
 
 function PageServicesLight() {
   const [isLightMode, setIsLightMode] = useState(true);

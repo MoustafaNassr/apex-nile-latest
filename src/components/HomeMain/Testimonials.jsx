@@ -72,9 +72,9 @@ function Testimonials({ lightMode }) {
                       </div>
                       <div className="d-flex align-items-center">
                         <div>
-                          <div className="img circle-60">
+                          {/* <div className="img circle-60">
                             <img src={`/${lightMode ? 'light' : 'dark'}/assets/imgs/testim/1.jpg`} alt="" className="circle-img" />
-                          </div>
+                          </div> */}
                         </div>
                         <div className="ml-30">
                           <div className="info">
@@ -101,13 +101,13 @@ function Testimonials({ lightMode }) {
                       </div>
                       <div className="d-flex align-items-center">
                         <div>
-                          <div className="img circle-60">
+                          {/* <div className="img circle-60">
                             <img src={`/${lightMode ? 'light' : 'dark'}/assets/imgs/testim/2.jpg`} alt="" className="circle-img" />
-                          </div>
+                          </div> */}
                         </div>
                         <div className="ml-30">
                           <div className="info">
-                            <h6 className="fz-16">Leonard Heiser</h6>
+                            <h6 className="fz-16">jeo deo</h6>
                             <span className="opacity-7 sub-title">Ceo</span>
                           </div>
                         </div>
