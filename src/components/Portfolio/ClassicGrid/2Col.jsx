@@ -10,6 +10,11 @@ function Grid() {
     initIsotope();
   }, []);
 
+  // const handleClick = (event, url) => {
+  //   event.preventDefault(); // Prevent the default anchor click behavior
+  //   window.open(url, '_blank');
+  // };
+
   return (
     <section className="portfolio section-padding pb-40">
       <div className="container-xxl">
@@ -31,11 +36,11 @@ function Grid() {
               data.gallery.map((item) => (
                 <div className={`col-md-6 items ${item.filter} info-overlay mb-80`} key={item.id}>
                   <div className="item-img o-hidden">
-                    <Link href={item.url} className="imago wow">
+                    <a href={item.url} target="_blank" className="imago wow">
                       <div className="inner wow">
                         <img src={item.image} alt="image" />
                       </div>
-                    </Link>
+                    </a>
                     <div className="info">
                       <span className="mb-15">
                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -43,7 +48,7 @@ function Grid() {
                         </svg>
                       </span>
                       <h6 className="sub-title tag"><Link href={item.url}>© {item.year} <br /> {item.type}</Link></h6>
-                      <h5><Link href={item.url}>{item.title}</Link></h5>
+                      <h5><a href={item.url} target="_blank" rel="noopener noreferrer">{item.title}</a></h5>
                     </div>
                   </div>
                 </div>
