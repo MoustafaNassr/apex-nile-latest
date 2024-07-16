@@ -76,20 +76,20 @@ jobs:
     - name: Fetch all branches
       run: git fetch --all
 
-    - name: Check if development branch is ahead of current branch
+    - name: Check if main branch is ahead of current branch
       run: |
-        BASE_BRANCH=development
+        BASE_BRANCH=main
         CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
         if [ "$(git rev-list --left-only --count $CURRENT_BRANCH...origin/$BASE_BRANCH)" -ne 0 ]; then
-          echo "Development branch is ahead of the current branch. Aborting."
+          echo "Main branch is ahead of the current branch. Aborting."
           exit 1
         fi
 
-    - name: Rebase development branch onto current branch
+    - name: Rebase main branch onto current branch
       run: |
-        git checkout development
+        git checkout main
         git rebase $GITHUB_HEAD_REF
-        git push origin development --force
+        git push origin main --force
 
     - name: Merge pull request
       if: ${{ success() }}
